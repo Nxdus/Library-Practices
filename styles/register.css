@@ -1,0 +1,143 @@
+body {
+    font-family: 'roboto', arial, helvetica, sans-serif;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.title {
+    margin-left: 2vw;
+    text-shadow: 4px 4px 15px rgba(0,0,0,0.2);
+}
+
+.register-section {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.register-section .register-box {
+    width: max-content;
+    height: max-content;
+    border-radius: 25px;
+    box-shadow: 4px 4px 15px rgba(0,0,0,0.2);
+
+    padding-left: 3vw;
+    padding-right: 3vw;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.register-section .register-box h2 {
+    margin-top: 7vh;
+}
+
+.register-section .register-box form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 3vh;
+    margin-bottom: 5vh;
+}
+
+.register-section .register-box form label {
+    width: 22vw;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.register-section .register-box form input[type="text"] {
+    width: 75%;
+    height: auto;
+
+    padding-left: 10px;
+    border: 0px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 15px rgba(0,0,0,0.2);
+}
+
+.register-section .register-box form input[type="password"] {
+    width: 75%;
+    height: auto;
+
+    padding-left: 10px;
+    border: 0px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 15px rgba(0,0,0,0.2);
+}
+
+.register-section .register-box form input[type="number"] {
+    width: 75%;
+    height: auto;
+
+    padding-left: 10px;
+    border: 0px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 15px rgba(0,0,0,0.2);
+}
+
+.register-section .register-box form input[type="file"] {
+    width: 75%;
+    height: auto;
+
+    align-self: center;
+    padding: 10px;
+    border: 0px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 15px rgba(0,0,0,0.2);
+}
+
+.register-section .register-box form input[type="file"]::file-selector-button {
+    border-radius: 15px;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.register-section .register-box form textarea {
+    width: 75%;
+    height: auto;
+
+    padding-left: 8px;
+    border: 0px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 15px rgba(0,0,0,0.2);
+}
+
+.register-section .register-box form select {
+    width: 78%;
+    height: auto;
+
+    padding-left: 10px;
+    border: 0px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 15px rgba(0,0,0,0.2);
+}
+
+.register-section .register-box form input[type="submit"] {
+    width: 18vw;
+    height: 5vh;
+
+    font-weight: bold;
+
+    margin-top: 2vh;
+
+    border: 0;
+    border-radius: 25px;
+    background-color: rgb(214, 214, 214);
+    box-shadow: 4px 4px 15px rgba(0,0,0,0.2);
+}
+
+.register-section .register-box form input[type="submit"]:active {
+    background-color: rgb(185, 185, 185);
+}

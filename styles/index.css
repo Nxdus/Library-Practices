@@ -1,0 +1,125 @@
+body {
+    font-family: 'roboto', arial, helvetica, sans-serif;
+    margin: 0;
+}
+
+.title {
+    margin-left: 2vw;
+    text-shadow: 4px 4px 15px rgba(0,0,0,0.2);
+}
+
+.login-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    margin-top: 12vh;
+    margin-left: 15vw;
+    margin-right: 15vw;
+}
+
+.login-section .login-box {
+    width: max-content;
+    height: max-content;
+    border-radius: 25px;
+    box-shadow: 4px 4px 15px rgba(0,0,0,0.2);
+
+    padding-left: 3vw;
+    padding-right: 3vw;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-section .login-box h2 {
+    margin-top: 7vh;
+}
+
+.login-section .login-box form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 3vh;
+    margin-bottom: 5vh;
+}
+
+.login-section .login-box form label {
+    width: 22vw;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.login-section .login-box form input[type="text"] {
+    width: 75%;
+    height: auto;
+
+    padding-left: 10px;
+    border: 0px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 15px rgba(0,0,0,0.2);
+}
+
+.login-section .login-box form input[type="password"] {
+    width: 75%;
+    height: auto;
+
+    padding-left: 10px;
+    border: 0px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 15px rgba(0,0,0,0.2);
+}
+
+.login-section .login-box form input[type="submit"] {
+    width: 18vw;
+    height: 5vh;
+
+    font-weight: bold;
+
+    border: 0;
+    border-radius: 25px;
+    background-color: rgb(129, 255, 129);
+    box-shadow: 4px 4px 15px rgba(0,0,0,0.2);
+}
+
+.login-section .login-box form input[type="submit"]:active {
+    background-color: rgb(114, 223, 114);
+}
+
+.login-section .login-box form a {
+    width: 18vw;
+    height: 5vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 2vh;
+
+    border: 0;
+    border-radius: 25px;
+    background-color: rgb(243, 243, 243);
+    box-shadow: 4px 4px 15px rgba(0,0,0,0.2);
+}
+
+.login-section .login-box a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+
+    margin-bottom: 2vh;
+}
+
+.login-section .text-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    width: 25vw;
+    margin-bottom: 15vh;
+
+    font-size: 16px;
+    text-align: center;
+}
